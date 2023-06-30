@@ -1,4 +1,3 @@
-
 一个用于测试人员快速生成测试表数据的框架
 
 - [x] 无代码配置
@@ -47,12 +46,16 @@
 |  name | str | 规则名称 |
 |           ... | ... |            其他自定义属性 |
 
-### 2，扩展数据规则
+### 2，执行
 
->2.1 在 modules/datarules/ 下新建.py文件
+```python run.py --config /path/to/yaml --work_dir /path/to/save/result```
 
->2.2 自定义类并注册类，同时需继承BaseDataRule类。
+## 扩展数据规则
 
->2.3 定义run方法，并在run方法内部返回结果。
+>1) 在 modules/datarules/ 下新建.py文件
 
->2.4 在配置文件上中的datarule中按照1.2中定义添加注册规则。
+>2) 自定义类并注册类，同时需继承BaseDataRule类。
+
+>3) 定义run方法，并在run方法内部返回结果。
+
+>4) 在配置文件上中的datarule中按照1.2中定义添加注册规则。
