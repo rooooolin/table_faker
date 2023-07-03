@@ -1,6 +1,5 @@
 一个用于测试人员快速生成测试表数据的框架
 
-- [x] 无代码配置
 - [x] 支持自定义【表名】，【字段名】，【表数量】，【字段数量】
 - [x] 支持自定义【字段的数据规则】，且支持扩展【数据规则】
 - [x] 支持【表间】字段关联，支持【表内】字段关联
@@ -9,7 +8,7 @@
     - [x] 自增ID（INCREMENTID） / UUID（uuid）
     - [x] 随机中文名（CHINESENAME），公司名（COMPANYNAME），电子设备名称（ee）
     - [x] 随机地址（address），随机手机号码（tel）
-    - [x] 随机日期（date），关联日期（）
+    - [x] 随机日期（date），关联随机日期的收货日期（receiptdate），关联随机日期的开票日期（invoicedate）
     - [x] 带区间的随机数值（float,int）（float(xx,xx),int(xx,xx)）
     - [x] 关联物品的价格（price），单位（unit）
 - [x] 支持写入结果到【Markdwon】
