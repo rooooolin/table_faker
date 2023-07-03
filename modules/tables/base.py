@@ -6,9 +6,7 @@ from collections import defaultdict
 class BaseTable:
     def __init__(self, **table) -> None:
         self.table = table
-        relationship = defaultdict(list)
         dt = defaultdict(list)
-        attr = ''
         et = None
         for field, val in self.table['fields'].items():
             if isinstance(val, list):

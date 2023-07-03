@@ -7,9 +7,9 @@ from datetime import datetime, timedelta
 class INVOICEDATE(BaseDataRule):
     ''' the customized rules of InvoiceDate: 
         1) later than OrderDate
-        2) 60% that it will be about later than the orderdate within 30 days
-        2) 30% that it will be about later than the orderdate between 30 and 180 days
-        2) 10% that it will be about later than the orderdate between 180 and 365 days
+        2) 60% that it will be later than the orderdate within 30 days
+        2) 30% that it will be later than the orderdate between 30 and 180 days
+        2) 10% that it will be later than the orderdate between 180 and 365 days
         '''
     def __init__(self, **kwds) -> None:
         super().__init__()
