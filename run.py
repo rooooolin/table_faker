@@ -5,8 +5,8 @@ from loguru import logger
 
 def parse():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--config',type=str, default=r'D:\devs\codes\data_faker\configs\spsc_8tn_13dr.yaml', help='')
-    parser.add_argument('--work_dir',type=str, default=r'D:\devs\codes\data_faker\outputs', help='')
+    parser.add_argument('--config',type=str, default='./configs/spsc_8tn_13dr.yaml', help='')
+    parser.add_argument('--work_dir',type=str, default='./outputs', help='')
     args = parser.parse_args()
     return args
 

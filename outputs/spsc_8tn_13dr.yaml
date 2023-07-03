@@ -120,7 +120,9 @@
     },
     {
       "name":"RECEIPTDATE",
-      "class_":"RECEIPTDATE"
+      "class_":"RECEIPTDATE",
+      "upper":5,
+      "lower":3
     },
      {
       "name":"INVOICEDATE",

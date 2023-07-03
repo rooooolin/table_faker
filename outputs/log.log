@@ -1,18 +1,18 @@
-2023-07-03 17:01:44.510 | INFO     | generator:run:110 - build tables..
-2023-07-03 17:01:44.511 | INFO     | modules.tables.base:__init__:30 - Supplier[SupplierID,SupplierName,ContactName,ContactPhone,Address]
-2023-07-03 17:01:44.512 | INFO     | modules.tables.base:__init__:30 - Product[ProductID,ProductName,Unit,UnitPrice]
-2023-07-03 17:01:44.513 | INFO     | modules.tables.base:__init__:30 - PurchaseOrder[PurchaseOrderID,OrderDate,SupplierID,TotalAmount]->(Supplier[SupplierID])
-2023-07-03 17:01:44.514 | INFO     | modules.tables.base:__init__:30 - (PurchaseOrderDetail[PurchaseOrderID,ProductID,Quantity,SupplierName,UnitPrice]<->PurchaseOrder)->(Product[ProductID],Supplier[SupplierName])
-2023-07-03 17:01:44.515 | INFO     | modules.tables.base:__init__:30 - Receipt[ReceiptID,ReceiptDate,PurchaseOrderID,SupplierID]->(PurchaseOrder[PurchaseOrderID],Supplier[SupplierID])
-2023-07-03 17:01:44.516 | INFO     | modules.tables.base:__init__:30 - (ReceiptDetail[ReceiptID,ProductID,Quantity,UnitPrice]<->Receipt)->(Product[ProductID,UnitPrice])
-2023-07-03 17:01:44.517 | INFO     | modules.tables.base:__init__:30 - Invoice[InvoiceID,InvoiceDate,PurchaseOrderID,SupplierID,TotalAmount]->(PurchaseOrder[PurchaseOrderID],Supplier[SupplierID])
-2023-07-03 17:01:44.518 | INFO     | modules.tables.base:__init__:30 - (InvoiceDetail[InvoiceID,ProductID,Quantity,UnitPrice]<->Invoice)->(Product[ProductID,UnitPrice])
-2023-07-03 17:01:45.926 | INFO     | generator:run:115 - fake datas..
-2023-07-03 17:01:45.930 | SUCCESS  | generator:run:142 - Generate 5 data of table:Supplier
-2023-07-03 17:01:45.932 | SUCCESS  | generator:run:142 - Generate 10 data of table:Product
-2023-07-03 17:01:45.938 | SUCCESS  | generator:run:142 - Generate 10 data of table:PurchaseOrder
-2023-07-03 17:01:45.941 | SUCCESS  | generator:run:142 - Generate 10 data of table:PurchaseOrderDetail
-2023-07-03 17:01:45.949 | SUCCESS  | generator:run:142 - Generate 10 data of table:Receipt
-2023-07-03 17:01:45.951 | SUCCESS  | generator:run:142 - Generate 10 data of table:ReceiptDetail
-2023-07-03 17:01:45.958 | SUCCESS  | generator:run:142 - Generate 10 data of table:Invoice
-2023-07-03 17:01:45.959 | SUCCESS  | generator:run:142 - Generate 10 data of table:InvoiceDetail
+2023-07-03 18:00:06.153 | INFO     | generator:run:109 - build tables..
+2023-07-03 18:00:06.153 | INFO     | modules.tables.base:__init__:30 - Supplier[SupplierID,SupplierName,ContactName,ContactPhone,Address]
+2023-07-03 18:00:06.153 | INFO     | modules.tables.base:__init__:30 - Product[ProductID,ProductName,Unit,UnitPrice]
+2023-07-03 18:00:06.153 | INFO     | modules.tables.base:__init__:30 - PurchaseOrder[PurchaseOrderID,OrderDate,SupplierID,TotalAmount]->(Supplier[SupplierID])
+2023-07-03 18:00:06.153 | INFO     | modules.tables.base:__init__:30 - (PurchaseOrderDetail[PurchaseOrderID,ProductID,Quantity,SupplierName,UnitPrice]<->PurchaseOrder)->(Product[ProductID],Supplier[SupplierName])
+2023-07-03 18:00:06.153 | INFO     | modules.tables.base:__init__:30 - Receipt[ReceiptID,ReceiptDate,PurchaseOrderID,SupplierID]->(PurchaseOrder[PurchaseOrderID],Supplier[SupplierID])
+2023-07-03 18:00:06.153 | INFO     | modules.tables.base:__init__:30 - (ReceiptDetail[ReceiptID,ProductID,Quantity,UnitPrice]<->Receipt)->(Product[ProductID,UnitPrice])
+2023-07-03 18:00:06.153 | INFO     | modules.tables.base:__init__:30 - Invoice[InvoiceID,InvoiceDate,PurchaseOrderID,SupplierID,TotalAmount]->(PurchaseOrder[PurchaseOrderID],Supplier[SupplierID])
+2023-07-03 18:00:06.154 | INFO     | modules.tables.base:__init__:30 - (InvoiceDetail[InvoiceID,ProductID,Quantity,UnitPrice]<->Invoice)->(Product[ProductID,UnitPrice])
+2023-07-03 18:00:06.308 | INFO     | generator:run:114 - fake datas..
+2023-07-03 18:00:06.311 | SUCCESS  | generator:run:141 - Generate 5 data of table:Supplier
+2023-07-03 18:00:06.312 | SUCCESS  | generator:run:141 - Generate 10 data of table:Product
+2023-07-03 18:00:06.315 | SUCCESS  | generator:run:141 - Generate 10 data of table:PurchaseOrder
+2023-07-03 18:00:06.316 | SUCCESS  | generator:run:141 - Generate 10 data of table:PurchaseOrderDetail
+2023-07-03 18:00:06.319 | SUCCESS  | generator:run:141 - Generate 10 data of table:Receipt
+2023-07-03 18:00:06.320 | SUCCESS  | generator:run:141 - Generate 10 data of table:ReceiptDetail
+2023-07-03 18:00:06.323 | SUCCESS  | generator:run:141 - Generate 10 data of table:Invoice
+2023-07-03 18:00:06.324 | SUCCESS  | generator:run:141 - Generate 10 data of table:InvoiceDetail
